@@ -1,0 +1,20 @@
+Instructions
+
+1. You should have Node.js and 'npm' installed on your machine for using react. 'npm' comes along with node installation.
+
+You can download node from here -
+https://nodejs.org/download/release/v10.14.0/
+
+2. Install serve (needs super user)-
+sudo npm install serve -g
+
+3. Extract the zip file (zinq-main.zip).
+
+4. Go to the 'zinq-main' directory and start the node server. (zinq-main is the root directory for all)
+node index.js
+
+5. Open another terminal and go to the 'zinq-main' directory and start the react server.
+serve -s webapp/build -p 3000
+
+6. Go to browser and hit url -
+localhost:3000
